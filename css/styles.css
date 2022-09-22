@@ -24,9 +24,85 @@ nav a {
   text-decoration: none;
   color: black;
 }
+nav a:hover {
+  color: #006241;
+}
 nav a img {
   height: 50px;
   width: auto;
+}
+
+.image-display {
+  background-color: #d4e9e2;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.image-display.large {
+  background-color: #006241;
+}
+.image-display.large:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.image-display.large .image-info {
+  color: white;
+}
+.image-display.large .image-info h2 {
+  font-size: 50px;
+  width: 70%;
+  margin: 0 auto;
+}
+.image-display.large .image-info h3 {
+  font-size: 25px;
+  width: 75%;
+}
+.image-display.large .image-info button {
+  border-color: white;
+  background-color: #006241;
+  color: white;
+}
+.image-display.large img {
+  height: 630px;
+}
+.image-display#psl {
+  background-color: #006241;
+}
+.image-display#psl .image-info {
+  color: white;
+}
+.image-display#psl .image-info button {
+  border-color: white;
+  background-color: #006241;
+  color: white;
+}
+.image-display img {
+  height: 425px;
+  width: 50%;
+}
+.image-display .image-info {
+  text-align: center;
+}
+.image-display .image-info h2 {
+  padding-bottom: 20px;
+}
+.image-display .image-info h3 {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.image-display .image-info button {
+  border-width: 1px;
+  padding: 5px;
+  font-size: 16px;
+  width: 100px;
+  text-decoration: none;
+  border-radius: 15px;
+  border-color: #1E3932;
+  background-color: #d4e9e2;
 }
 
 footer {

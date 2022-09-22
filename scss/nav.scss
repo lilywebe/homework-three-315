@@ -11,6 +11,10 @@ nav{
         text-decoration: none;
         color:black;
 
+        &:hover{
+            color:#006241;
+        }
+
         img{
             height:50px;
             width:auto;
