@@ -1,0 +1,37 @@
+#menu-title{
+    text-align:center;
+    font-size: 60px;
+
+
+}
+
+
+.menu-items{
+    width:95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:0 auto;
+    flex-wrap:wrap;
+}
+
+.image-display{
+
+    &.menu{
+        flex-direction: column;
+        height:1000px;
+        width:700px;
+        
+        &:nth-child(even){
+            flex-direction:column;
+        }
+        img{
+            height:600px;
+            width:700px;
+        }
+
+        .image-info{
+            padding-bottom:75px;
+        }
+    }
+}
