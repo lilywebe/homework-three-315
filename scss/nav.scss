@@ -2,12 +2,18 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: pink;
+    background-color: white;
+    width:25%;
     
-    height:50px;
+    height:100px;
 
     a{
         text-decoration: none;
-        color:white;
+        color:black;
+
+        img{
+            height:50px;
+            width:auto;
+        }
     }
 }
