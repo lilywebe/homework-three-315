@@ -1,0 +1,42 @@
+@media only screen and (max-width: 1000px) {
+
+.image-display{
+
+    width:630px;
+    flex-wrap:wrap;
+    img{
+        width:100%;
+    }
+
+    .image-info{
+        padding-top:25px;
+        padding-bottom:25px;
+    }
+
+    &.large{
+        flex-direction: column;
+
+        width:630px;
+
+    img{
+        width:100%;
+    }
+
+        &:nth-child(even){
+            flex-direction:column;
+        }
+    }
+}
+
+.star-code{
+    button{
+        margin:0 auto;
+        margin-top:25px;
+    }
+}
+
+.cash-or-card{
+    height:700px;
+}
+
+}

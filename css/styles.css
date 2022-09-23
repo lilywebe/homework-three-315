@@ -15,10 +15,32 @@ h1, h2, h3, h4, h5, h6, p {
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: white;
-  width: 25%;
+  width: 90%;
+  margin: 0 auto;
   height: 100px;
+}
+nav .sign-in button {
+  border-width: 1px;
+  padding: 5px;
+  font-size: 16px;
+  width: 100px;
+  text-decoration: none;
+  border-radius: 15px;
+  border-color: black;
+  background-color: white;
+}
+nav .sign-in button.black {
+  border-color: white;
+  color: white;
+  background-color: black;
+}
+nav .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 25px;
 }
 nav a {
   text-decoration: none;
@@ -145,6 +167,8 @@ footer .navigation {
   align-items: center;
   justify-content: space-evenly;
   width: 70%;
+  padding-left: 10px;
+  gap: 10px;
 }
 footer .navigation div {
   display: flex;
@@ -190,6 +214,311 @@ footer .navigation div a {
 }
 .image-display.menu .image-info {
   padding-bottom: 75px;
+}
+
+.rewards-header {
+  background-color: #1e3932;
+  height: 60px;
+  color: white;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.getting-started {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.getting-started .title-text {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.getting-started .steps {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+}
+.getting-started .steps .step {
+  text-align: center;
+  width: 350px;
+}
+.getting-started .steps .step h2 {
+  border-style: solid;
+  border-color: #006241;
+  border-radius: 20px;
+  padding: 5px;
+  border-width: 3px;
+  width: 45px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  color: #006241;
+}
+.getting-started .steps .step h3 {
+  margin-bottom: 30px;
+}
+
+.rewards-hero {
+  height: 650px;
+  width: 100%;
+  background-color: #d4e9e2;
+  padding-left: 50px;
+  padding-top: 150px;
+}
+.rewards-hero h1 {
+  width: 300px;
+}
+.rewards-hero button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-color: white;
+  background-color: #006241;
+  color: white;
+  border-width: 1px;
+  padding: 5px;
+  font-size: 16px;
+  width: 100px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.cash-or-card {
+  height: 600px;
+  width: 100%;
+  background-color: #f2f0eb;
+}
+.cash-or-card hr {
+  margin-bottom: 50px;
+}
+.cash-or-card .title-text {
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.cash-or-card .star-section {
+  width: 80%;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.cash-or-card .star-section .star {
+  width: 300px;
+}
+.cash-or-card .star-section .image-display-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  width: 400px;
+}
+.cash-or-card .star-section .image-display-icon .img-text {
+  width: 200px;
+  text-align: left;
+}
+.cash-or-card .star-section .image-display-icon img {
+  height: 150px;
+}
+
+.star-code {
+  width: 60%;
+  padding-left: 300px;
+  padding-top: 100px;
+}
+.star-code input {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.star-code button {
+  margin-left: 500px;
+  margin-top: 25px;
+  border-width: 1px;
+  padding: 5px;
+  font-size: 16px;
+  width: 100px;
+  text-decoration: none;
+  border-radius: 15px;
+  border-color: #1E3932;
+  background-color: white;
+}
+
+.questions {
+  width: 60%;
+  padding-left: 300px;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.giftcards-section {
+  height: 400px;
+}
+.giftcards-section h3 {
+  width: 80%;
+  padding-left: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 14px;
+}
+.giftcards-section .giftcards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow-x: auto;
+  width: 80%;
+  margin-left: 100px;
+}
+.giftcards-section .giftcards::-webkit-scrollbar {
+  display: none;
+}
+.giftcards-section .giftcards img {
+  height: 200px;
+  padding-right: 40px;
+}
+
+.got-giftcard {
+  height: 150px;
+  width: 100%;
+  background-color: #d4e9e2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.got-giftcard .text {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 100px;
+  gap: 25px;
+}
+.got-giftcard .text button {
+  border-width: 1px;
+  padding: 5px;
+  font-size: 16px;
+  width: 150px;
+  text-decoration: none;
+  border-radius: 15px;
+  border-color: #1E3932;
+  background-color: #d4e9e2;
+}
+.got-giftcard .text button.black {
+  border-color: white;
+  color: white;
+  background-color: black;
+}
+.got-giftcard .terms {
+  padding-right: 100px;
+  padding-left: 25px;
+}
+
+.title-signin {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sign-in-form {
+  width: 500px;
+  height: 600px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: left;
+}
+.sign-in-form p {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+.sign-in-form input {
+  width: 80%;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  font-size: 20px;
+  padding: 10px;
+}
+.sign-in-form a {
+  color: #006241;
+  margin-top: 25px;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.sign-in-form button {
+  border-width: 1px;
+  padding: 5px;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  text-decoration: none;
+  border-radius: 20px;
+  color: white;
+  background-color: #006241;
+  margin-left: 300px;
+}
+
+.rewards {
+  width: 500px;
+  background-color: rgba(212, 233, 226, 0.3);
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+.rewards button {
+  border-width: 1px;
+  padding: 5px;
+  font-size: 16px;
+  width: 100px;
+  text-decoration: none;
+  border-radius: 15px;
+  border-color: #1E3932;
+  background-color: rgba(212, 233, 226, 0.3);
+}
+
+@media only screen and (max-width: 1000px) {
+  .image-display {
+    width: 630px;
+    flex-wrap: wrap;
+  }
+  .image-display img {
+    width: 100%;
+  }
+  .image-display .image-info {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .image-display.large {
+    flex-direction: column;
+    width: 630px;
+  }
+  .image-display.large img {
+    width: 100%;
+  }
+  .image-display.large:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .star-code button {
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+
+  .cash-or-card {
+    height: 700px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
